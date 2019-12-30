@@ -1,0 +1,49 @@
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,positioning,intersections,quotes,decorations.markings}
+\usetikzlibrary{shapes.geometric,calc,angles,positioning,intersections,quotes,decorations,babel,patterns,fit}
+\usepackage{tkz-euclide}
+\begin{document}
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{55.425}
+\def\b{55.425}
+\def\c{55.425}
+
+%Inradius
+\def\r{32}
+
+
+%Circumcentre
+
+\node (I) at (1.5,1.32287566)[point,label=right:$I$] {};
+\node (D) at (1.5,0)[point,label=below:$D$] {};
+\node (E) at (2.375,2.3150324)[point,label=above right:$E$] {};
+\node (F) at (0.1875,1.48823511)[point,label=left:$F$] {};
+
+
+
+
+
+%Drawing Incircle
+\draw (I) circle (\r);
+%\tkzMarkAngle[fill=green!60,size=.3](I,B,F)
+%\tkzMarkAngle[fill=green!40,size=.3](D,B,I)
+%
+%
+%\tkzMarkAngle[fill=red!60,size=.3](F,A,I)
+%\tkzMarkAngle[fill=red!40,size=.3](I,A,E)
+
+
+%Angle[fill=orange!40](I,C,D)
+
+%\tkzMarkRightAngle[fill=blue!20,size=.3](A,E,I)
+%\tkzMarkRightAngle[fill=blue!20,size=.3](A,F,I)
+%\tkzMarkRightAngle[fill=blue!20,size=.3](I,D,C)
+
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+[scale =0.9,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
+\node (D) at (2,3.464)[point,label=above :$D$] {};
+\node (E) at (0,0)[point,label=below :$E$] {};
+\node (A) at (5,0)[point,label=below :$A$] {};
+\node (R) at (5,4.5)[point,label=above :$R$] {};
+\draw (D)--(E);
+\draw (E)--(A);
+\draw (A)--(R);
+\draw (R)--(D);
+\tkzMarkAngle[fill=white!60,size=.3](A,E,D)
+\tkzLabelAngle[pos=0.65](A,E,D){$60$}
+\tkzMarkRightAngle[draw=black,size=.2](R,A,E)
+\end{tikzpicture}
