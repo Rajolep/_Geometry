@@ -26,12 +26,19 @@ A,B,C = tri_vert(a,b,c)
 #Finding the circumcentre and radius
 O = tri_ccentre(A,B,C)
 R = tri_cradius(a,b,c)
-D=np.array([2.5,-1])
-#Mid points of the sides
 
 
 print(A,B,C)
 print(O,R)
+R=3.57217254156
+d=np.sqrt(2*(R)**2)
+print(d)
+
+#Coordinates of D
+p = (d**2 + R**2-R**2 )/(2*d)
+q = np.sqrt(R**2-p**2)
+D=np.array([p,-q])
+print(D)
 
 #Generating all lines
 x_AB = line_gen(A,B)
@@ -68,7 +75,7 @@ plt.text(B[0] * (1 - 0.2), B[1] * (1) , 'B')
 plt.plot(C[0], C[1], 'o')
 plt.text(C[0] * (1 + 0.03), C[1] * (1 - 0.1) , 'C')
 plt.plot(O[0], O[1], 'o')
-plt.text(O[0] * (1 + 0.1), O[1] * (1 - 0.1) , 'O')
+plt.text(O[0] * (1 + 0.1), O[1] * (1 - 0.1) , 'O(0,0)')
 plt.plot(D[0], D[1], 'o')
 plt.text(D[0] * (1 + 0.1), D[1] * (1 - 0.1) , 'D')
 

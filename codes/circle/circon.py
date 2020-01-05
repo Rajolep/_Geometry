@@ -1,3 +1,6 @@
+#Code by PRIYANKA R
+#December 31, 2019
+#released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
@@ -29,6 +32,8 @@ M= np.array([p1,q1])
 N= np.array([p1,-q1])
 
 O=np.array([0,0])
+print(a)
+print(e)
 print(P)
 print(Q)
 print(M)

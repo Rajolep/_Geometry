@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.3)  2 JAN 2020 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.3)  6 JAN 2020 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1647,92 +1647,126 @@ Package gensymb Warning: Not defining \micro.
 (./ASSIGNMENT.nav) (./Chapters/triangle/1ques.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 37.
+line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<./figs/priyanka.png, id=22, 561.09625pt x 436.63126pt>
-File: ./figs/priyanka.png Graphic file (type png)
-<use ./figs/priyanka.png>
-Package pdftex.def Info: ./figs/priyanka.png  used on input line 37.
-(pdftex.def)             Requested size: 112.21725pt x 87.32469pt.
+Overfull \vbox (0.7357pt too high) detected at line 38
+ []
 
 [2
 
- <./figs/priyanka.png>]
-Overfull \vbox (16.83347pt too high) detected at line 52
+]
+<./figs/triexe.png, id=34, 462.528pt x 346.896pt>
+File: ./figs/triexe.png Graphic file (type png)
+<use ./figs/triexe.png>
+Package pdftex.def Info: ./figs/triexe.png  used on input line 47.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+ [3
+
+ <./figs/triexe.png>]
+Overfull \vbox (16.83347pt too high) detected at line 61
  []
 
-[3
+[4
+
+] [5
 
 ]) (./Chapters/triangle/2ques.tex
-<./figs/tricon.png, id=43, 462.528pt x 346.896pt>
+<./figs/tricon.png, id=57, 462.528pt x 346.896pt>
 File: ./figs/tricon.png Graphic file (type png)
 <use ./figs/tricon.png>
-Package pdftex.def Info: ./figs/tricon.png  used on input line 26.
-(pdftex.def)             Requested size: 92.50395pt x 69.37796pt.
- [4
+Package pdftex.def Info: ./figs/tricon.png  used on input line 12.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+ [6
 
- <./figs/tricon.png>])
-(./Chapters/7ques.tex (./figs/miscell.tex)
-<./figs/misc.png, id=55, 462.528pt x 346.896pt>
-File: ./figs/misc.png Graphic file (type png)
-<use ./figs/misc.png>
-Package pdftex.def Info: ./figs/misc.png  used on input line 15.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+ <./figs/tricon.png>] [7
 
-Overfull \vbox (51.47446pt too high) detected at line 15
- []
-
-[5
-
- <./figs/misc.png>] [6
-
-]) (./Chapters/Quad/4ques.tex (./figs/quadccon.tex)
-<./figs/quadcon.png, id=73, 462.528pt x 346.896pt>
+])
+(./Chapters/Quad/4ques.tex
+<./figs/quadcon.png, id=74, 462.528pt x 346.896pt>
 File: ./figs/quadcon.png Graphic file (type png)
 <use ./figs/quadcon.png>
-Package pdftex.def Info: ./figs/quadcon.png  used on input line 15.
-(pdftex.def)             Requested size: 92.50395pt x 69.37796pt.
+Package pdftex.def Info: ./figs/quadcon.png  used on input line 12.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Overfull \vbox (17.1946pt too high) detected at line 15
+Overfull \vbox (3.18282pt too high) detected at line 12
  []
 
-[7
+[8
 
- <./figs/quadcon.png>]) (./Chapters/circle/5ques.tex
-<./figs/cirexe.png, id=83, 1171.4967pt x 694.5147pt>
+ <./figs/quadcon.png>] (./figs/quadccon.tex) [9
+
+])
+(./Chapters/circle/6ques.tex
+<./figs/circon.png, id=91, 1171.4967pt x 694.5147pt>
+File: ./figs/circon.png Graphic file (type png)
+<use ./figs/circon.png>
+Package pdftex.def Info: ./figs/circon.png  used on input line 12.
+(pdftex.def)             Requested size: 175.71692pt x 104.1727pt.
+ [10
+
+ <./figs/circon.png>] [11
+
+])
+(./Chapters/7ques.tex
+<./figs/misc.png, id=107, 462.528pt x 346.896pt>
+File: ./figs/misc.png Graphic file (type png)
+<use ./figs/misc.png>
+Package pdftex.def Info: ./figs/misc.png  used on input line 13.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+Overfull \vbox (3.18282pt too high) detected at line 13
+ []
+
+[12
+
+ <./figs/misc.png>] (./figs/miscell.tex)
+Overfull \vbox (2.51091pt too high) detected at line 26
+ []
+
+[13
+
+]) (./Chapters/circle/5ques.tex
+<./figs/cirexe.png, id=125, 462.528pt x 346.896pt>
 File: ./figs/cirexe.png Graphic file (type png)
 <use ./figs/cirexe.png>
 Package pdftex.def Info: ./figs/cirexe.png  used on input line 28.
-(pdftex.def)             Requested size: 234.29518pt x 138.90047pt.
- [8
+(pdftex.def)             Requested size: 92.50395pt x 69.37796pt.
+ [14
 
- <./figs/cirexe.png>]
-[9
+ <./figs/cirexe.png>] [15
 
-]) (./Chapters/circle/6ques.tex
-<./figs/circon.png, id=96, 1171.4967pt x 694.5147pt>
-File: ./figs/circon.png Graphic file (type png)
-<use ./figs/circon.png>
-Package pdftex.def Info: ./figs/circon.png  used on input line 32.
-(pdftex.def)             Requested size: 117.15652pt x 69.45554pt.
- [10
+])
+(./Chapters/Quad/3ques.tex
+<./figs/quadexer.png, id=139, 462.528pt x 346.896pt>
+File: ./figs/quadexer.png Graphic file (type png)
+<use ./figs/quadexer.png>
+Package pdftex.def Info: ./figs/quadexer.png  used on input line 14.
+(pdftex.def)             Requested size: 138.75946pt x 104.0696pt.
+ [16
 
- <./figs/circon.png>])
+ <./figs/quadexer.png>] (./figs/quadexe.tex)
+[17
+
+] [18
+
+] [19
+
+])
 \tf@nav=\write6
 \openout6 = `ASSIGNMENT.nav'.
 
@@ -1742,22 +1776,22 @@ Package pdftex.def Info: ./figs/circon.png  used on input line 32.
 \tf@snm=\write8
 \openout8 = `ASSIGNMENT.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./ASSIGNMENT.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `ASSIGNMENT.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29841 strings out of 492982
- 585866 string characters out of 6134896
- 709617 words of memory out of 5000000
- 32618 multiletter control sequences out of 15000+600000
+ 29892 strings out of 492982
+ 586437 string characters out of 6134896
+ 707616 words of memory out of 5000000
+ 32644 multiletter control sequences out of 15000+600000
  11188 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,100p,1438b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,15n,100p,1438b,1158s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
@@ -1770,10 +1804,10 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb>
-Output written on ASSIGNMENT.pdf (10 pages, 379773 bytes).
+Output written on ASSIGNMENT.pdf (19 pages, 384062 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 

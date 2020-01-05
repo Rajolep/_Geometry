@@ -1,0 +1,43 @@
+\begin{frame}
+\frametitle{Problem Statement-Quadrilateral Exercise}
+\begin{enumerate}[label=(\roman*)]
+\item The side AB of a parallelogram ABCD is produced to any point P. A line through A and
+parallel to CP meets CB produced at Q and then parallelogram PBQR is completed. Show
+that ar(ABCD) = ar(PBQR).
+\textbf{Soln:}\\
+Given:- CP $\parallel$ AQ
+  \end{enumerate} 
+\url{https://github.com/Rajolep/_Geometry/blob/master/codes/quadr/quadexer.py}
+\begin{figure}
+\includegraphics[scale=0.3]{./figs/quadexer.png}
+\end{figure}
+\end{frame}
+\begin{frame}
+\begin{figure}
+\input{./figs/quadexe}
+\end{figure}
+\url{https://github.com/Rajolep/_Geometry/blob/master/figs/quadexe.tex}
+\end{frame}
+\begin{frame}
+\begin{align*}
+CP \parallel AQ\\
+\end{align*}
+area of $\triangle{ACQ}$ =  area of $\triangle{AQP}$\\
+subtract area$\triangle{ABQ}$ in above Eqn\\
+ar$\triangle{ACQ}$-ar$\triangle{ABQ}$ = ar$\triangle{APQ}$-ar$\triangle{ACQ}$\\
+ar$\triangle{ABC}$ = ar$\triangle{PBQ}$....(1)\\
+$\triangle{ABC} \cong \triangle{ADC}$\\
+ar$\triangle{ABC}$ = ar$\triangle{ADC}$\\
+ar$\triangle{ABC}$ = ar$\triangle{ADC}$ = $\frac{1}{2}(ABCD)$...(2)\\
+\end{frame}
+\begin{frame}
+similarly in PBQR,\\
+$\triangle{PBQ} \cong \triangle{PRQ}$\\
+ar$\triangle{PBQ}$ = ar$\triangle{PRQ}$\\
+ar$\triangle{PBQ}$ = ar$\triangle{PRQ}$ = $\frac{1}{2}(ABCD)$....(3)\\
+frm (1)\\
+$\triangle{ABC}$ = $\triangle{PBQ}$\\
+frm (2)  (3)\\
+$\frac{1}{2}(ABCD)$ = $\frac{1}{2}(ABCD)$\\
+Ar(ABCD) = Ar(PBQR)\\
+\end{frame}

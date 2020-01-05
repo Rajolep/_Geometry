@@ -1,4 +1,6 @@
-
+#Code by PRIYANKA R
+#December 31, 2019
+#released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
