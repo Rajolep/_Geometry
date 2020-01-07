@@ -6,14 +6,15 @@
 Given:- AB=8, r1=4, r2=3, A=$\myvec{0\\0}$ B=$\myvec{8\\0}$\\
 \end{enumerate}
 \url{https://github.com/Rajolep/_Geometry/blob/master/codes/circle/circon.py}
-\begin{figure}
-\includegraphics[scale=0.15]{./figs/circon.png}
-\end{figure}
+
 \end{frame}
 \begin{frame}
-Construction steps:
+
+Construction steps:\\
+step1 : Draw a tangent
 AP=$(AB)^2-(PB)^2$=7.416198\\
 MB=$(AB)^2-(AM)^2$6.928203\\
+M(p1,q1)\\
 M(2 , 3.46410162)\\
 r1=4  r2=3\\
 a=$\sqrt{(8)^2-(r2)^2)}$\\
@@ -45,6 +46,11 @@ Q(6.875 , -2.78107443)\\
 \draw (B)--(N);
 \draw (A)--(P);
 \draw (A)--(Q);
+\tkzMarkRightAngle[fill=white!45,size=.2,mark=](A,P,B)
+\tkzMarkRightAngle[draw=black,size=.2,mark=](A,Q,B)
+\tkzMarkRightAngle[draw=black,size=.2,mark=](A,M,B)
+\tkzMarkRightAngle[draw=black,size=.2,mark=](A,N,B)
+
 \end{tikzpicture}\\
 \url{https://github.com/Rajolep/_Geometry/blob/master/figs/circon.tex}
 

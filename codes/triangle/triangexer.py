@@ -1,45 +1,37 @@
-
+#Code by PRIYANKA R
+#December 31, 2019
+#released under GNU GPL
 import numpy as np
 import matplotlib.pyplot as plt
 from coeffs import *
-
 
 #if using termux
 import subprocess
 import shlex
 #end if
 
+#Sides
+c = 5
+d = 4.5
+ang = 60*np.pi/180
+b =  4
+#Coordinates of B
+p = np.sqrt(b**2+c**2-2*b*c*np.cos(ang))
 
-#Triangle sides
-#a = 6
-#b = 4.5
-#c = 7.5
-a = 4
-b = 6
-angD = np.pi/180*85
-c = np.sqrt(a**2+b**2-2*a*b*np.cos(angD))
+x = (c**2 + b**2-p**2 )/(2*c)
+y = np.sqrt(b**2-x**2)
 
-print(c)
-
-#Coordinates of A
-p = (a**2 + c**2-b**2 )/(2*a)
-q = np.sqrt(c**2-p**2)
-print(p,q)
-
-#Parallelogram vertices
-A = np.array([p,q]) 
+#QUAD vertices
+B = np.array([x,y]) 
 D = np.array([0,0]) 
-C = np.array([a,0]) 
+C = np.array([b,0]) 
+A = np.array([c,d])
 
-#Mid point of BD
-O =(A+D)/2
-o=(1.75632,3)
-#Finding A
-B = 2*O-C
 F= alt_foot(D,C,B)
 print(F)
 E=alt_foot(A,B,C)
 print(E)
+print(x,y)
 
 #Generating all lines
 x_BD = line_gen(B,D)
@@ -74,21 +66,15 @@ plt.plot(F[0], F[1], 'o')
 plt.text(F[0] * (1 + 0.03), F[1] * (1 - 0.1) , 'F')
 plt.plot(E[0], E[1], 'o')
 plt.text(E[0] * (1 + 0.03), E[1] * (1 - 0.1) , 'E')
-plt.plot(o[0], o[1], 'o')
-plt.text(o[0] * (1 + 0.03), o[1] * (1 - 0.1) , 'o')
+
 plt.xlabel('$x$')
 plt.ylabel('$y$')
 plt.legend(loc='best')
 plt.grid() # minor
 plt.axis('equal')
 
-#if using termux
-#plt.savefig('./figs/quad/pgm_sss.pdf')
-#plt.savefig('./figs/quad/pgm_sss.eps')
-#subprocess.run(shlex.split("termux-open ./figs/quad/pgm_sss.pdf"))
-#else
+plt.savefig('../../figs/triexe.eps')
 plt.show()
-
 
 
 

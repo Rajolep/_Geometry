@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.3)  7 JAN 2020 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.3)  7 JAN 2020 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -251,10 +251,14 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no B in font nullfont!
 Missing character: There is no C in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-<recently read> \url 
-                     
-l.8   \url
+l.9   \url
           {https://github.com/Rajolep/_Geometry/blob/master/codes/circle/5qu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -292,13 +296,13 @@ Missing character: There is no / in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.8   \url{https://github.com/Rajolep/_
+l.9   \url{https://github.com/Rajolep/_
                                        Geometry/blob/master/codes/circle/5qu...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.8 ...Geometry/blob/master/codes/circle/5ques.py}
+l.9 ...Geometry/blob/master/codes/circle/5ques.py}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -313,8 +317,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -325,8 +329,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -337,8 +341,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -349,16 +353,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -368,8 +372,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.9 \end{enumerate}
-                   
+l.10 \end{enumerate}
+                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -383,7 +387,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \begin{figure}
+l.11 \begin{figure}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -396,7 +400,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \begin{tikzpicture}
+l.12 \begin{tikzpicture}
                         [scale =0.3,>=stealth,point/.style = {draw, circle, ...
 
 Your command was ignored.
@@ -477,7 +481,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.12 \draw
+l.13 \draw
            (2.5,2.55155182)circle (3.57217254156cm);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -526,7 +530,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.13 \node
+l.14 \node
            (A) at (3.8,5.87877538)[point,label=above :$A$] {};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -577,7 +581,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.14 \node
+l.15 \node
            (B) at (0,0)[point,label=below :$B$] {};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -617,7 +621,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.15 \node
+l.16 \node
            (C) at (5,0)[point,label=below :$C$] {};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -657,7 +661,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.16 \node
+l.17 \node
            (D) at (2.5,-1)[point,label=below :$D$] {};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -700,7 +704,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.17 \node
+l.18 \node
            (O) at (2.5,2.55155182)[point,label=above :$O$]{};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -751,7 +755,7 @@ Missing character: There is no : in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.18 \draw
+l.19 \draw
            (A)--(B);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -769,7 +773,7 @@ Missing character: There is no B in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.19 \draw
+l.20 \draw
            (A)--(C);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -787,7 +791,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.20 \draw
+l.21 \draw
            (A)--(D);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -805,7 +809,7 @@ Missing character: There is no D in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.21 \draw
+l.22 \draw
            (B)--(C);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -823,7 +827,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.22 \draw
+l.23 \draw
            (B)--(O);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -841,7 +845,7 @@ Missing character: There is no O in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.23 \draw
+l.24 \draw
            (O)--(C);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -859,7 +863,7 @@ Missing character: There is no C in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.24 \draw
+l.25 \draw
            (O)--(D);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -883,15 +887,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{tikzpicture}
+l.26 \end{tikzpicture}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.26 \includegraphics
-                     [scale=0.2]{./figs/cirexe.png}
+l.27 \includegraphics
+                     [scale=0.4]{./figs/cirexe.eps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -907,7 +911,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no / in font nullfont!
@@ -923,9 +927,9 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
 
 ! LaTeX Error: \begin{frame} on input line 1 ended by \end{figure}.
 
@@ -933,7 +937,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \end{figure}
+l.28 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -942,7 +946,279 @@ or  <return>  to continue without it.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \vrule 
-l.30 \begin
+l.31 \begin
+           {itemize}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \vrule 
+l.31 \begin
+           {itemize}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.31 \begin
+           {itemize}
+I'm ignoring this, since I wasn't doing a \csname.
+
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.31 \begin
+           {itemize}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.31 \begin
+           {itemize}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.31 \begin
+           {itemize}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\hrule' here except with leaders.
+\frame ...h #1\vrule \@width \@wholewidth }\hrule 
+                                                  \@height \@wholewidth \vsk...
+l.31 \begin
+           {itemize}
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.31 \begin
+           {itemize}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.31 \begin
+           {itemize}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.31 \begin
+           {itemize}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.31 \begin
+           {itemize}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 3--32
+\OMS/cmsy/m/n/10 4$
+ []
+
+
+Overfull \hbox (6.37344pt too wide) in paragraph at lines 3--32
+[]$
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 3--32
+\OMS/cmsy/m/n/10 4$
+ []
+
+
+Overfull \hbox (24.91653pt too wide) in paragraph at lines 3--32
+\OT1/cmr/bx/n/10 Soln: 
+ []
+
+
+Overfull \hbox (203.1612pt too wide) in paragraph at lines 3--32
+[]\OML/cmm/m/it/10 eometry=blob=master=codes=circle=\OT1/cmr/m/n/10 5\OML/cmm/m
+/it/10 ques:py$
+ []
+
+
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 3--32
+\OML/cmm/m/it/10 A$
+ []
+
+
+Overfull \hbox (8.0868pt too wide) in paragraph at lines 3--32
+\OML/cmm/m/it/10 B$
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 3--32
+\OML/cmm/m/it/10 C$
+ []
+
+
+Overfull \hbox (8.55695pt too wide) in paragraph at lines 3--32
+\OML/cmm/m/it/10 D$
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 3--32
+\OML/cmm/m/it/10 O$
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \item a
+            =5 b=6 c=7
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 7 in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \item R
+            =3.57
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \item O
+            =(2.50,2.55)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no O in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+! LaTeX Error: \begin{frame} on input line 30 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{itemize}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{frame}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{frame}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.36 \end{frame}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \vrule 
+l.38 \begin
            {align*}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -950,7 +1226,7 @@ not appear between \csname and \endcsname.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \vrule 
-l.30 \begin
+l.38 \begin
            {align*}
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
@@ -958,7 +1234,7 @@ not appear between \csname and \endcsname.
 ! Extra \endcsname.
 <recently read> \endcsname 
                            
-l.30 \begin
+l.38 \begin
            {align*}
 I'm ignoring this, since I wasn't doing a \csname.
 
@@ -970,7 +1246,7 @@ Missing character: There is no h in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.30 \begin
+l.38 \begin
            {align*}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -979,7 +1255,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.30 \begin
+l.38 \begin
            {align*}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -991,7 +1267,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Extra }, or forgotten \endgroup.
 <recently read> }
                  
-l.30 \begin
+l.38 \begin
            {align*}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1002,7 +1278,7 @@ deleted material, e.g., by typing `I$}'.
 ! You can't use `\hrule' here except with leaders.
 \frame ...h #1\vrule \@width \@wholewidth }\hrule 
                                                   \@height \@wholewidth \vsk...
-l.30 \begin
+l.38 \begin
            {align*}
 To put a horizontal rule in an hbox or an alignment,
 you should use \leaders or \hrulefill (see The TeXbook).
@@ -1016,7 +1292,7 @@ Missing character: There is no t in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    \vskip 
-l.30 \begin
+l.38 \begin
            {align*}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1025,7 +1301,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \vskip 
-l.30 \begin
+l.38 \begin
            {align*}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1037,7 +1313,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.30 \begin
+l.38 \begin
            {align*}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1048,7 +1324,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.30 \begin
+l.38 \begin
            {align*}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1094,19 +1370,19 @@ Missing character: There is no C in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.34 \triangle
+l.42 \triangle
               {BOE} \cong \triangle{COE}  ...(2)\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-! LaTeX Error: \begin{frame} on input line 29 ended by \end{align*}.
+! LaTeX Error: \begin{frame} on input line 37 ended by \end{align*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{align*}
+l.44 \end{align*}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1115,7 +1391,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.36 \end{align*}
+l.44 \end{align*}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1140,7 +1416,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \begin{align*}
+l.46 \begin{align*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1173,7 +1449,7 @@ Missing character: There is no A in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41 \angle{BAD}=\frac{\angle{A}}{2}
+l.49 \angle{BAD}=\frac{\angle{A}}{2}
                                     \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1181,7 +1457,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \frac #1#2->{\begingroup #1\endgroup \over #2}
                                               
-l.41 \angle{BAD}=\frac{\angle{A}}{2}
+l.49 \angle{BAD}=\frac{\angle{A}}{2}
                                     \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1196,7 +1472,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \end{align*}
+l.52 \end{align*}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1205,7 +1481,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 \end{align*}
+l.52 \end{align*}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1216,7 +1492,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.44 \end{align*}
+l.52 \end{align*}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1231,7 +1507,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \end{frame}
+l.53 \end{frame}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1240,7 +1516,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.45 \end{frame}
+l.53 \end{frame}
                 
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1252,10 +1528,10 @@ Things are pretty mixed up, but I think the worst is over.
 
  
 Here is how much of TeX's memory you used:
- 22 strings out of 492982
- 274 string characters out of 6134896
+ 21 strings out of 492982
+ 271 string characters out of 6134896
  57913 words of memory out of 5000000
- 3687 multiletter control sequences out of 15000+600000
+ 3686 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  18i,8n,12p,129b,129s stack positions out of 5000i,500n,10000p,200000b,80000s

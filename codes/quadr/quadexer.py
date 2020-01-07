@@ -101,9 +101,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/quad/pgm_sss.pdf')
-#plt.savefig('./figs/quad/pgm_sss.eps')
-#subprocess.run(shlex.split("termux-open ./figs/quad/pgm_sss.pdf"))
-#else
+plt.savefig('../../figs/quadexer.eps')
 plt.show()
 
 

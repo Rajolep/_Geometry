@@ -85,7 +85,8 @@ plt.legend(loc='upper right')
 plt.grid() # minor
 plt.axis('equal')
 
-
+plt.savefig('../../figs/circexe.pdf')
+plt.savefig('../../figs/circexe.eps')
 plt.show()
 
 

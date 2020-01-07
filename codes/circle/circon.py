@@ -97,7 +97,7 @@ plt.axis('equal')
 
 #if using termux
 #plt.savefig('./figs/circle/circumcircle.pdf')
-#plt.savefig('./figs/circle/circumcircle.eps')
+plt.savefig('../../figs/circon.eps')
 #subprocess.run(shlex.split("termux-open ./figs/circle/circumcircle.pdf"))
 #else
 plt.show()
