@@ -12,23 +12,24 @@ $\frac{ar(ABC)}{ar(DBC)}=\frac{AO}{DO}$\\
 \end{enumerate}
 \textbf{Soln:}\\
 
-\url{https://github.com/Rajolep/_Geometry/blob/master/figs/construc.tex}
+\url{https://github.com/Rajolep/_Geometry/blob/master/figs/triexe.tex}
 \begin{figure}
 \begin{tikzpicture}
-[scale = 0.4,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt},]
-\node (A) at (5.1823,6.27851)[point,label=above :$A$] {};
+[scale = 0.4,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 1pt}]
+\node (A) at (6.05, 5.63)[point,label=above :$A$] {};
 \node (D) at (0,0)[point,label=left :$D$] {};
-\node (C) at (3.5,0)[point,label=below :$C$] {};
-\node (B) at (2.42196082,9.0388)[point,label=above :$B$] {};
-\node (E) at (2.78527772,5.99262965)[point,label=left :$E$] {};
-\node (F) at (3.45091219,0.41157955)[point,label=right :$F$] {};
-\node (O) at (3.05,3.7)[point,label=left :$O$] {};
+\node (C) at (4,0)[point,label=below :$C$] {};
+\node (B) at (2.05,5.63)[point,label=above :$B$] {};
+\node (E) at (2.47,4.40)[point,label=left :$E$] {};
+\node (F) at (3.57,1.23)[point,label=right :$F$] {};
+\node (O) at (3.02,2.75)[point,label=left :$O$] {};
+\draw (D)--(C);
 \draw (D)--(A);
 \draw (A)--(B);
-\draw (B)--(C);
-\draw (A)--(C);
+\draw (C)--(A);
+\draw (A)--(B);
 \draw (B)--(D);
-\draw (C)--(D);
+\draw (B)--(C);
 \draw [dashed] (A) -- (E);
 \draw [dashed] (D) -- (F);
 \tkzMarkRightAngle[draw=red,size=.4](A,E,C)
@@ -37,13 +38,26 @@ $\frac{ar(ABC)}{ar(DBC)}=\frac{AO}{DO}$\\
 \end{figure}
 \end{frame}
 \begin{frame}
-D(0,0)\\
-B(2.4219,9.0388)\\
-A(5.1823,6.27881)\\
+
+\begin{itemize}
+\item DC=a=4  CA=b=6
+\item D=(0,0) \\
+\item C=(4,0)\\
+\item O=$\frac{(A+D)}{2}$ \\
+\item B=(2O$-$C)=B(2.05,5.63)\\
+\item A(p,q)\\
+\item p=$\frac{a^2+c^2-b^2}{2a}$ q=$\sqrt{c^2-p^2}$\\
+\item A(6.05,5.63)\\
+\item F=(3.57,1.23)\\
+\item E=(2.47,4.40)
+\end{itemize}
+
+\end{frame}
+\begin{frame}
 \begin{figure}
-\includegraphics[scale=0.3]{./figs/triexe.png}
+\includegraphics[scale=0.4]{./figs/triexe.png}
 \end{figure}
-\url{https://github.com/Rajolep/_Geometry/blob/master/codes/triangle/draw_triangle.py}
+\url{https://github.com/Rajolep/_Geometry/blob/master/codes/triangle/triangexer.py}
 \end{frame}
 \begin{frame}
 \begin{align*}

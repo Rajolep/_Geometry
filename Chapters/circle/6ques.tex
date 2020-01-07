@@ -3,7 +3,7 @@
 \begin{enumerate}[label=(\roman*)]
 \item Draw a line segment AB of length 8 units. Taking A as centre, draw a circle of radius 4 units and taking B as centre, draw another circle of radius 3 units. Construct tangents to each circle from the centre of the other circle.\\
 \textbf{Soln:}\\
-Given:- AB=8, r1=4, r2=3, A(0,0)\\
+Given:- AB=8, r1=4, r2=3, A=$\myvec{0\\0}$ B=$\myvec{8\\0}$\\
 \end{enumerate}
 \url{https://github.com/Rajolep/_Geometry/blob/master/codes/circle/circon.py}
 \begin{figure}
@@ -11,14 +11,23 @@ Given:- AB=8, r1=4, r2=3, A(0,0)\\
 \end{figure}
 \end{frame}
 \begin{frame}
-AP=7.416198\\
-MB=6.928203\\
+Construction steps:
+AP=$(AB)^2-(PB)^2$=7.416198\\
+MB=$(AB)^2-(AM)^2$6.928203\\
 M(2 , 3.46410162)\\
+r1=4  r2=3\\
+a=$\sqrt{(8)^2-(r2)^2)}$\\
+c=r2 b=8  d=r1\\
+e=$\sqrt{(8)^2-(r1)^2)}$\\
+p1 = $\frac{(b)^2 + (d)^2-(e)^2 )}{(2b)}$\\
+q1 = $\sqrt{(d)^2-(p1)^2}$\\
 N(2 , -3.46410162)\\
 P(6.875 , 2.78107443)\\
 Q(6.875 , -2.78107443)\\
+\end{frame}
+\begin{frame}
 \begin{figure}
-\begin{tikzpicture}[scale =0.4,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 0.4pt},]
+\begin{tikzpicture}[scale =0.5,>=stealth,point/.style = {draw, circle, fill = black, inner sep = 0.4pt},]
 \draw (0,0)circle (4cm);
 \draw (8,0)circle (3cm);
 \node (A) at (0,0)[point,label=left :$A$] {};

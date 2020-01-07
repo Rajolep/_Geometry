@@ -8,7 +8,7 @@ in the middle. Find the area of the design.\\
   Given: R=32cm\\
 \url{https://github.com/Rajolep/_Geometry/blob/master/codes/triangle/draw_triangle.py}
 \begin{figure}
-\includegraphics[scale=0.4]{./figs/misc.png}
+\includegraphics[scale=0.3]{./figs/misc.png}
 \end{figure}
 \end{frame}
 \begin{frame}
@@ -16,11 +16,13 @@ in the middle. Find the area of the design.\\
 \begin{figure}
 \input{./figs/miscell}
 \end{figure}
-\begin{align*}
-\triangle{BOC} = 120\degree \\
-BO=OC=32\\
-BC=\sqrt{(BO)^2+(OC)^2}-2(BO)(OC)\cos(120)=55.425\\
-\end{align*}
-Area of design = $\pi(R)(R)$ - $\frac{\sqrt{3}}{4}(BC)(BC)$\\
+\begin{itemize}
+\item $\triangle{BOC} = 120\degree$ \\
+\item BO=OC=32\\
+\item $BC=\sqrt{(BO)^2+(OC)^2}-2(BO)(OC)\cos(120)=55.425$\\
+\end{itemize}
+a=$\sqrt{(2R)^2-2(R)^2\cos{120}}$\\
+s=$\frac{a+b+c}{2}$\\
+Area of design = $\pi(R)(R)$ - $\sqrt{s(s-a)(s-b)(s-c)}$\\
 Area = 1886.81
 \end{frame}
